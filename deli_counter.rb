@@ -11,7 +11,7 @@ str1 =""
       n +=1
     end
   end
-    puts "The line is currently: #{str1}"
+    puts "The line is currently:#{str1}"
 end
 
 def take_a_number(array,name)
