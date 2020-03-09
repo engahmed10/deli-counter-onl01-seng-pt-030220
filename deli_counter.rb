@@ -1,20 +1,17 @@
 # Write your code here.
-
 def line(array)
 
-
-str =  "The line is currently:"
 str1 =""
   if array.length == 0
       return  puts  "The line is currently empty."
   else
     n=1
     array.each do |i|
-      str1 =str1 + " #{n}. #{i}"
+      str1 += " #{n}. #{i}"
       n +=1
     end
   end
-    puts "#{str}#{str1}"
+    puts "The line is currently: #{str1}"
 end
 
 def take_a_number(array,name)
