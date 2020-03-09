@@ -8,7 +8,7 @@ str1 =""
   if array.length == 0
       return  puts  "The line is currently empty."
   else
-      n=1
+    n=1
     array.each do |i|
       str1 =str1 + " #{n}. #{i}"
       n +=1
