@@ -7,13 +7,6 @@ str =  "The line is currently:"
 str1 =""
   if array.length == 0
       return  puts  "The line is currently empty."
-  elsif array.length < 4
-
-    n=1
-    array.each do |i|
-    str1 =str1 + " #{n}. #{i}"
-    n +=1
-    end
   else
       n=1
     array.each do |i|
